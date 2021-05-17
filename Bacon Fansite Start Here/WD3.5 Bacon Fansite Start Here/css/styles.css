@@ -1,0 +1,25 @@
+h1 {
+  color: red;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+
+.Tofu {
+  background-color: green;
+  width: 150px;
+  height: 150px;
+}
+.Broccoli {
+  background-color: red;
+}
+.circular {
+  border-radius: 100%;
+}
+
+
+#heading {
+  color: blue;
+}
