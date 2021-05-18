@@ -1,7 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-
+  font-family: verdana,sans-serif;
 }
 
 h1 {
@@ -9,7 +9,7 @@ margin-top: 0;
 }
 
 .top-container {
-  background: linear-gradient(#71c9ce, #a6e3e9, #cbf1f5, #e3fdfd);
+  background: linear-gradient(#cca8e9, #c3bef0, #cadefc, #defcf9);
   position: relative;
   padding-top: 100px;
 }
@@ -44,5 +44,5 @@ width: 180px;
 
 .mainPicture {
   height: 700px;
-  width: 700px;
+  width: 800px;
 }
