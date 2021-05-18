@@ -9,8 +9,9 @@ margin-top: 0;
 }
 
 .top-container {
-
-  background-color: #E4F9F5;
+  background: linear-gradient(#71c9ce, #a6e3e9, #cbf1f5, #e3fdfd);
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -26,19 +27,19 @@ margin-top: 0;
 }
 
 .top-cloud {
-position: relative;
-left: 300px;
-bottom: 150px
-height: 230px;
-width: 280px;
+position: absolute;
+right: 300px;
+top: 5px;
+height: 130px;
+width: 180px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 20px;
-  bottom: 300px;
-  height: 180px;
-  width: 300px;
+  bottom: 500px;
+  height: 150px;
+  width: 280px;
 }
 
 .mainPicture {
