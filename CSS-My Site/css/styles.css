@@ -1,44 +1,81 @@
 body {
+  font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-  font-family: verdana,sans-serif;
+}
+
+a {
+  color: #11999E;
 }
 
 h1 {
-margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 2;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', san-sans-serif;
+}
+
+p {
+  font-weight: normal;
+  line-height: 2;
+}
+
+.programmer {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.artist {
+  float:right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
 }
 
 .top-container {
   background: linear-gradient(#cca8e9, #c3bef0, #cadefc, #defcf9);
-  position: relative;
   padding-top: 100px;
+  position: relative;
 }
 
 .middle-container {
-  background-color: red;
-  width: 200px;
-  height: 200px;
+
 }
 
 .bottom-container {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
+
 }
 
 .top-cloud {
-position: absolute;
-right: 300px;
-top: 5px;
-height: 130px;
-width: 180px;
+  height: 130px;
+  position: absolute;
+  right: 300px;
+  top: 5px;
+  width: 180px;
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 20px;
   bottom: 500px;
   height: 150px;
+  left: 20px;
+  position: absolute;
   width: 280px;
 }
 
