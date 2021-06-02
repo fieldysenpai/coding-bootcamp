@@ -5,7 +5,7 @@ body {
 
 #title {
   background-color: #ff4c68;
-  color: #fff; 
+  color: #fff;
 }
 
 .container-fluid {
@@ -17,4 +17,10 @@ font-family: 'Montserrat-Black', sans-serif;
 font-weight: 900;
 line-height: 1.5;
 size: 3rem;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
 }
