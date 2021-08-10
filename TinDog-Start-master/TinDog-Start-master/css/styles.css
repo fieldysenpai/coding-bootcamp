@@ -66,9 +66,6 @@ p {
 }
 
 /* Title */
-#title {
-  text-align: center;
-}
 
 #title .container-fluid {
   padding: 3% 15% 7%;
@@ -111,7 +108,7 @@ p {
 /* Testimonial section */
 #testimonials {
   background-color: #ef8172;
-  }
+}
 
 .testimonial-text {
   font-size: 3rem;
@@ -150,11 +147,6 @@ p {
 }
 
 /* CTA Section */
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 /* Footer Section */
 .social-icon {
   margin: 20px 10px;
